@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Videojuego</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <nav>
+                <a href="#" class="nav_items nav_items--cta">Contáctanos</a>
+                <a href="#" class="nav_items">Sobre el juego</a>
+                <a href="#" class="nav_items">características y/o actualizaciones</a>
+
+            </nav>
+            <section class="hero_container">
+                <div class="hero_texts"></div>
+                   
+            </section>
+        </div>
+    </header>
+    <h1>Hola Mundo</h1>
+    <a class="fa-brands fa-facebook" href="#"></a>
+    <a class="fa-brands fa-square-instagram" href="#"></a>
+
+    <script src="https://kit.fontawesome.com/d4b63db671.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
