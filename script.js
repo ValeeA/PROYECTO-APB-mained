@@ -6,7 +6,7 @@ const controls = document.querySelector(".controls-container");
 const dragContainer = document.querySelector(".draggable-Objects");
 const dropContainer = document.querySelectorAll(".drop-points");
 const data =[
-    
+
 ]
 
 
@@ -148,7 +148,7 @@ const isTouchDevice = () => {
       startButton.classList.add("hide");
       await creator();
       count = 0;
-      dropPoints = document.querySelectorAll(".countries");
+      dropPoints = document.querySelectorAll(".preguntas");
       draggableObjects = document.querySelectorAll(".draggable-image");
       draggableObjects.forEach((element) => {
         element.addEventListener("dragstart", dragStart);
