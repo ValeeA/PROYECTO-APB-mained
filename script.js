@@ -1,20 +1,11 @@
-const boxes = document.querySelectorAll(".box"),
-image  = document.querySelector(".image");
+let draggableObjects;
+let dropPints;
+const startButton = document.getElementById("comience");
+const result = document.getElementById("result");
+const controls = document.querySelector(".controls-container");
+const dragContainer = document.querySelector(".draggable-Objects");
+const dropContainer = document.querySelectorAll(".drop-points");
 
-boxes.forEach((box) =>{
-    box.addEventListener("dragover",(e)=>{
-        e.preventDefault();
-        box.classList.add("hovered");
 
-    });
-
-    box.addEventListener("dragleave",()=>{
-        box.appendChild("hovered");
-    });
-
-    box.addEventListener("drop",()=>{
-        box.appendChild(image);
-        box.classList.remove("hovered");
-    });
-
-});
+let deviceType = "";
+let InitialsX
