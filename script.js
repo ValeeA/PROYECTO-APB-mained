@@ -8,4 +8,13 @@ const dropContainer = document.querySelectorAll(".drop-points");
 
 
 let deviceType = "";
-let InitialsX
+let InitialsX = 0,
+initialY= 0;
+let currentElement = "";
+let moveElement = false;
+
+
+
+
+
+
