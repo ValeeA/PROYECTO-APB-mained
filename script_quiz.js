@@ -12,4 +12,12 @@ function respuesta(num_pregunta, seleccionada) {
     //el siguiente código es para poner en color blanco
     //el fondo delos inputs cuando elige otra opción
     //armo el id para seleccionar el seccion correspondiente
+    ud="p" + num_pregunta;
+    labels= document.getElemetById(id).childNodes;
+    labels[3].style.backgroundColor = "white";
+    labels[5].style.backgroundColor = "white";
+    labels[7].style.backgroundColor = "white";
+    
+    //Doy el color a label seleccionado
+    seleccionada.parentNode.style.backgroundColor = "#cec0fc";
 }
