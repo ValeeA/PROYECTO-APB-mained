@@ -90,3 +90,31 @@ header nav .branding{
     line-height: 1.9;
     margin-bottom: 2rem;
 }
+
+.hero .right {
+    margin-top: 2rem;
+}
+
+section{
+    padding:6rem 0;
+}
+
+section.nosotros .sobre-nosotros-img{
+    height: 450px;
+}
+
+section.nosotros h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.nosotros h1 span{
+    color:var(--primary);
+}
+
+section.nosotros h3{
+    font-size: 1rem;
+    margin-bottom:1rem;
+    font-weight: 400;
+}
