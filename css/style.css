@@ -99,22 +99,47 @@ section{
     padding:6rem 0;
 }
 
-section.nosotros .sobre-nosotros-img{
+section.conocenos .sobre-nosotros-img{
     height: 450px;
 }
 
-section.nosotros h1{
+section.conocenos h1{
     margin-bottom: 1rem;
     font-size: 1.6rem;
     font-weight: 400;
 }
 
-section.nosotros h1 span{
+section.conocenos h1 span{
     color:var(--primary);
 }
 
-section.nosotros h3{
+section.conocenos h3{
     font-size: 1rem;
     margin-bottom:1rem;
     font-weight: 400;
+}
+
+section.conocenos p{
+    font-family: 'Lato', sans-serif;
+    color:var(--ternary);
+    line-height: 1.8;
+}
+
+section.conocenos .social{
+    display:flex;
+}
+
+section.conocenos .social a{
+    background:var(--dark);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right:0.6rem;
 }
