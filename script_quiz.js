@@ -21,3 +21,13 @@ function respuesta(num_pregunta, seleccionada) {
     //Doy el color a label seleccionado
     seleccionada.parentNode.style.backgroundColor = "#cec0fc";
 }
+//funcion que compara los arreglos para saber cuantas estuvieran correctas
+function corregir () {
+    cantidad_correctas = 0;
+    for(i= 0; i < correctas.length;i++) {
+        if(correctas[i]==opcion_elegida[i]) {
+        }
+    }
+
+    document.getElementById("resultado").innerHTML = cantidad_correctas;
+}
